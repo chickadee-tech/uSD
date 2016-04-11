@@ -47,7 +47,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Text Notes 7050 7000 0    197  ~ 0
-uSD-spi-bb v1
+uSD-spi v2
 $Sheet
 S 9300 2050 1200 3400
 U 564009DE

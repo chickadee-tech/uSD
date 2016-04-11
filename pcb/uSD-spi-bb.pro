@@ -1,4 +1,4 @@
-update=Tuesday, January 19, 2016 'PMt' 02:08:20 PM
+update=Sunday, April 10, 2016 'PMt' 11:06:38 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -61,3 +61,13 @@ LibName29=valves
 LibName30=/Users/tannewt/kicad/libraries/ckd_sandwich
 LibName31=/Users/tannewt/chickadee-projects/shared/kicad/libraries/public/components/ti-gate
 LibName32=/Users/tannewt/chickadee-projects/shared/kicad/libraries/public/components/microsd
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
