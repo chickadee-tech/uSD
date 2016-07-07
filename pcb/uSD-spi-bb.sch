@@ -46,7 +46,7 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text Notes 7050 7000 0    197  ~ 0
+Text Notes 7400 7550 0    118  ~ 0
 uSD-spi v2
 $Sheet
 S 9300 2050 1200 3400
@@ -374,4 +374,6 @@ Wire Wire Line
 	8100 2400 8100 2500
 Wire Wire Line
 	8100 2700 8100 2850
+Text Notes 7050 7050 0    60   ~ 0
+Copyright 2016 Chickadee Tech LLC, <add attributions here>\n\nThis work is licensed under the Creative Commons Attribution 4.0 International License.\nTo view a copy of this license, visit http://creativecommons.org/licenses/by/4.0/\nor send a letter to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.
 $EndSCHEMATC
