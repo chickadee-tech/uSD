@@ -28,7 +28,7 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:ckd_sandwich
+LIBS:polystack
 LIBS:ti-gate
 LIBS:microsd
 LIBS:uSD-spi-bb-cache
@@ -53,14 +53,14 @@ S 9300 2050 1200 3400
 U 564009DE
 F0 "ExpansionPort" 60
 F1 "ExpansionPort.sch" 60
-F2 "+5V" I L 9300 3800 60 
-F3 "GND" I R 10500 3800 60 
-F4 "GPIO1" I L 9300 2600 60 
-F5 "SPI1_NSS" I R 10500 5100 60 
-F6 "SPI1_SCK" I R 10500 5200 60 
-F7 "SPI1_MISO" I R 10500 5300 60 
-F8 "SPI1_MOSI" I R 10500 5400 60 
-F9 "GPIO2" I L 9300 2700 60 
+F2 "+5V" I L 9300 3800 60
+F3 "GND" I R 10500 3800 60
+F4 "GPIO1" I L 9300 2600 60
+F5 "SPI1_NSS" I R 10500 5100 60
+F6 "SPI1_SCK" I R 10500 5200 60
+F7 "SPI1_MISO" I R 10500 5300 60
+F8 "SPI1_MOSI" I R 10500 5400 60
+F9 "GPIO2" I L 9300 2700 60
 $EndSheet
 $Comp
 L TLV70233DBV U1
@@ -71,7 +71,7 @@ F 1 "TLV70233DBV" H 5750 2550 50  0000 C CNN
 F 2 "TO_SOT_Packages_SMD:SOT-23-5" H 5650 2450 50  0000 C CIN
 F 3 "" H 5650 2350 50  0000 C CNN
 	1    5650 2350
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L C C1
@@ -82,7 +82,7 @@ F 1 "10uF" H 4625 2350 50  0000 L CNN
 F 2 "Capacitors_SMD:C_1206_HandSoldering" H 4638 2300 50  0001 C CNN
 F 3 "" H 4600 2450 50  0000 C CNN
 	1    4600 2450
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L C_Small C2
@@ -93,7 +93,7 @@ F 1 "1uF" H 6560 2370 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603_HandSoldering" H 6550 2450 50  0001 C CNN
 F 3 "" H 6550 2450 50  0000 C CNN
 	1    6550 2450
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L LED D1
@@ -104,7 +104,7 @@ F 1 "RED" H 7200 4750 50  0000 C CNN
 F 2 "LEDs:LED_0603" H 7200 4850 50  0001 C CNN
 F 3 "" H 7200 4850 50  0000 C CNN
 	1    7200 4850
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L LED D2
@@ -115,7 +115,7 @@ F 1 "GREEN" H 7800 4750 50  0000 C CNN
 F 2 "LEDs:LED_0603" H 7800 4850 50  0001 C CNN
 F 3 "" H 7800 4850 50  0000 C CNN
 	1    7800 4850
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L R R1
@@ -126,7 +126,7 @@ F 1 "1k" V 7200 5300 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 7130 5300 50  0001 C CNN
 F 3 "" H 7200 5300 50  0000 C CNN
 	1    7200 5300
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L R R2
@@ -137,7 +137,7 @@ F 1 "1k" V 7800 5300 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 7730 5300 50  0001 C CNN
 F 3 "" H 7800 5300 50  0000 C CNN
 	1    7800 5300
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L +3.3V #PWR01
@@ -148,7 +148,7 @@ F 1 "+3.3V" H 7500 4540 50  0000 C CNN
 F 2 "" H 7500 4400 50  0000 C CNN
 F 3 "" H 7500 4400 50  0000 C CNN
 	1    7500 4400
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L +3.3V #PWR02
@@ -159,7 +159,7 @@ F 1 "+3.3V" H 6900 2440 50  0000 C CNN
 F 2 "" H 6900 2300 50  0000 C CNN
 F 3 "" H 6900 2300 50  0000 C CNN
 	1    6900 2300
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Wire Wire Line
 	6100 2300 6900 2300
@@ -175,7 +175,7 @@ F 1 "GNDPWR" H 7200 5520 50  0000 C CNN
 F 2 "" H 7200 5600 50  0000 C CNN
 F 3 "" H 7200 5600 50  0000 C CNN
 	1    7200 5650
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Wire Wire Line
 	7500 4400 7500 4650
@@ -213,7 +213,7 @@ F 1 "GNDPWR" H 10800 3920 50  0000 C CNN
 F 2 "" H 10800 4000 50  0000 C CNN
 F 3 "" H 10800 4000 50  0000 C CNN
 	1    10800 4050
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L +5V #PWR05
@@ -224,7 +224,7 @@ F 1 "+5V" H 9100 3740 50  0000 C CNN
 F 2 "" H 9100 3600 50  0000 C CNN
 F 3 "" H 9100 3600 50  0000 C CNN
 	1    9100 3600
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Text Label 10500 5100 0    60   ~ 0
 NSS
@@ -259,7 +259,7 @@ F 1 "GNDPWR" H 5650 2720 50  0000 C CNN
 F 2 "" H 5650 2800 50  0000 C CNN
 F 3 "" H 5650 2800 50  0000 C CNN
 	1    5650 2850
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L +5V #PWR07
@@ -270,7 +270,7 @@ F 1 "+5V" H 4300 2390 50  0000 C CNN
 F 2 "" H 4300 2250 50  0000 C CNN
 F 3 "" H 4300 2250 50  0000 C CNN
 	1    4300 2250
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Wire Wire Line
 	4300 2250 4600 2250
@@ -285,7 +285,7 @@ F 1 "MicroSD" H 5900 4650 60  0000 C CNN
 F 2 "microsd:DM3AT" H 5900 4450 60  0001 C CNN
 F 3 "" H 5900 4450 60  0000 C CNN
 	1    5900 4450
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L +3.3V #PWR08
@@ -296,7 +296,7 @@ F 1 "+3.3V" H 4600 4340 50  0000 C CNN
 F 2 "" H 4600 4200 50  0000 C CNN
 F 3 "" H 4600 4200 50  0000 C CNN
 	1    4600 4200
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L GNDPWR #PWR09
@@ -307,7 +307,7 @@ F 1 "GNDPWR" H 4600 4270 50  0000 C CNN
 F 2 "" H 4600 4350 50  0000 C CNN
 F 3 "" H 4600 4350 50  0000 C CNN
 	1    4600 4400
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Wire Wire Line
 	4600 4200 5300 4200
@@ -327,7 +327,7 @@ F 1 "GNDPWR" H 5300 5370 50  0000 C CNN
 F 2 "" H 5300 5450 50  0000 C CNN
 F 3 "" H 5300 5450 50  0000 C CNN
 	1    5300 5500
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Text Label 5300 4300 2    60   ~ 0
 SCK
@@ -355,7 +355,7 @@ F 1 "+3.3V" H 8100 2540 50  0000 C CNN
 F 2 "" H 8100 2400 50  0000 C CNN
 F 3 "" H 8100 2400 50  0000 C CNN
 	1    8100 2400
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L R_Small R3
@@ -366,7 +366,7 @@ F 1 "10k" H 8130 2560 50  0000 L CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" H 8100 2600 50  0001 C CNN
 F 3 "" H 8100 2600 50  0000 C CNN
 	1    8100 2600
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Text Label 8100 2850 0    60   ~ 0
 GPIO2
